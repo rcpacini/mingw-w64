@@ -9,13 +9,13 @@ Official Website: [MinGW-W64](http://mingw-w64.org/doku.php)
   * Version: **8.1.0**
   * Architecture: **i686** or **x86_64**
     * **i686**: is the 32-bit version
-    * **x86_64**: is the 64-bit version of the OS (Recommended)
+    * **x86_64**: is the 64-bit version of the OS (**Recommended**)
   * Threads: **posix** or **win32**
-    * **posix**: Enable C++11/C11 multithreading features. (Recommended)
+    * **posix**: Enable C++11/C11 multithreading features. (**Recommended**)
        * Note: Makes libgcc depend on libwinpthreads, so that even if you don't directly call pthreads API, you'll be distributing the winpthreads DLL. There's nothing wrong with distributing one more DLL with your application.
     * **win32**: No C++11 multithreading features.
   * Exception: **dwarf** or **sjlj**
-    * **seh**: Available for 64-bit GCC 4.8 (x86_64) (Recommended)
+    * **seh**: Available for 64-bit GCC 4.8 (x86_64) (**Recommended**)
       * Performance: Zero overhead exception 
     * **dwarf**: Available for 32 bit only (i686).
       * Performance: No permanent runtime overhead.
@@ -24,11 +24,11 @@ Official Website: [MinGW-W64](http://mingw-w64.org/doku.php)
   * Build revision: **0**
 
 **Recommended for Windows 10 x64:**
-    * Version = **8.1.0**
-    * Architecture = **x86_64** (x64 OS)
-    * Threads = **posix** (Allow threading)
-    * Exception = **seh** (Zero overhead exception)
-    * Build revision = **0**
+  * Version = **8.1.0**
+  * Architecture = **x86_64** (x64 OS)
+  * Threads = **posix** (Allow threading)
+  * Exception = **seh** (Zero overhead exception)
+  * Build revision = **0**
 
 2. Download the appropriate 7-zip (*.7z) file to your local machine:
   * ARCHITECTURE-VERSION-THREAD-EXCEPTION-*.7z
